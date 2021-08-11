@@ -8,10 +8,8 @@
 		"export": "next export",
 		"start": "next start",
 		"lint": "next lint",
-		"build:development": "next build && npm run export && npm run rss:development && npm run sitemap:development",
-		"build": "next build && npm run export && npm run rss && npm run sitemap",
-		"sitemap:development": "node ./.next/server/scripts/build-sitemap.js",
-		"sitemap": "node ./.next/serverless/scripts/build-sitemap.js",
+		"build:development": "next build && npm run export && npm run rss:development",
+		"build": "next build && npm run export && npm run rss",
 		"rss:development": "node ./.next/server/scripts/build-rss.js",
 		"rss": "node ./.next/serverless/scripts/build-rss.js"
 	},
