@@ -27,7 +27,8 @@ module.exports = {
 		}
 
 		if (!options.isServer) {
-			config.resolve.fallback.fs = false
+			// NOTE: Doesn't work in Webpack v4
+			// config.resolve.fallback.fs = false
 		}
 
 		return config

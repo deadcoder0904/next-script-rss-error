@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-import Logo from '@/assets/logo.svg'
-
 interface INavItem {
 	title: string
 	link: string
@@ -26,7 +24,6 @@ export const Nav = () => {
 				<section className="h-full">
 					<Link href="/">
 						<a className="flex items-center justify-center h-full pl-4">
-							<Logo className="w-4 h-4 fill-current dark:text-white -rotate-6" />
 							<span className="text-lg sr-only">Home</span>
 						</a>
 					</Link>

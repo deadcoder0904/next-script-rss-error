@@ -1,3 +1,4 @@
+console.log('rss feed works')
 // import fs from 'fs'
 // import path from 'path'
 // import ReactDOMServer from 'react-dom/server'
